@@ -1,0 +1,15 @@
+; ;; Principal; 
+; 
+; @ / 0100 
+0100 010a; JP MAIN 
+; 
+; ;; Constantes; 
+0102 0000; C0 K / 0000 
+0104 0001; C1 K / 0001 
+; 
+; ;; Rotina; Principal; 
+0106 8104; MAIN LD C0 
+0108 e303; PD / 303 ;; joga; o; valor; de; C0; para; o; arquivo; chat.dat; 
+; 
+; # MAIN 
+; 
